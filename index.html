@@ -35,7 +35,7 @@
 
 <body>
     <div class="container">
-        <h1 class="text-center">Trump's Campaign Promises - 2024</h1>
+        <h1 class="text-center">Trump's 2nd Term Promises</h1>
         <p class="text-center"><em>This list is incomplete. Trump made many more promises that are not included
                 here.</em></p>
         <p class="text-center">"I will govern by a simple motto: Promises made, promises kept. We're going to keep our
@@ -66,7 +66,7 @@
             const table = $('#promisesTable').DataTable({
                 paging: false,
                 autoWidth: true,
-                order: []
+                order: [[1, 'asc']]
             });
 
             // Load CSV file
